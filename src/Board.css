@@ -1,0 +1,49 @@
+#root {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+}
+
+.board-row {
+    display: flex;
+    margin-bottom: -1px;
+}
+
+.square {
+    color: #fffdd0 !important;
+}
+
+.square {
+    background: #121212 !important;
+    border: 1px solid #fffdd0 !important;
+    float: left;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 100vh;
+    width: auto;
+    font-size: 10px;
+}
+
+.statusBar {
+    color: #fffdd0 !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
